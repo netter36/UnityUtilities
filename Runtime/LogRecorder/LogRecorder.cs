@@ -260,7 +260,7 @@ namespace Utility
 
 		[SerializeField]
 		[Tooltip("활성화하면 로그 도착 시간이 기록되고 로그 확장 시 표시됩니다.")]
-		private bool captureLogTimestamps = false;
+		private bool captureLogTimestamps = true;
 		
 		[SerializeField]
 		private bool isFullLog = false;
